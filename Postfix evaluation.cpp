@@ -42,7 +42,6 @@ int main()
             digits.pop();
             res = evaluate(x, y, s[i]);
             digits.push(evaluate(x, y, s[i]));
-            cout << res << "\n";
         }
     }
     cout << res;
