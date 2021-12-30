@@ -38,7 +38,7 @@ struct Queue{
             return;
         }
 
-        for (int i = Front; i <= Rear; i++){
+        for (int i = front; i <= rear; i=(i+1)%100){
             cout << arr[i] << " ";
         }
     }
